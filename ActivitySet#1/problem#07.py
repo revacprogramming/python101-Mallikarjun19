@@ -2,6 +2,7 @@
 
 text = "X-DSPAM-Confidence:    0.8475"
 pos=text.find('    ')
-piece=text[pos:]
+print(pos)
+piece=text[pos+4:]
 result=float(piece)
 print(result)
